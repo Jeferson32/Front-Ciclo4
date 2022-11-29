@@ -1,0 +1,39 @@
+.img-banner {
+  object-fit: cover;
+  margin-top: 150px;
+}
+
+.dog {
+  position: absolute;
+  width: 680px;
+  left: 1200px;
+  top: 804px;
+}
+
+.cat {
+  position: absolute;
+  width: 700px;
+  top: 775px;
+}
+
+.form-login {
+  margin-bottom: 200px;
+}
+.registrarme {
+  color: rgba(29, 169, 122, 0.88);
+}
+.registrarme:hover {
+  color: rgba(29, 169, 122, 0.88);
+}
+@media (max-width: 768px), (max-width: 1600px) {
+  .dog {
+    position: absolute;
+    left: 1600px;
+  }
+}
+@media (max-width: 768px), (max-width: 1600px) {
+  .cat {
+    position: absolute;
+    right: 1600px;
+  }
+}

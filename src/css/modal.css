@@ -1,0 +1,19 @@
+#header{
+    background-color: rgba(55, 172, 133, 0.88);
+}
+
+#fooder{
+    background-color: black;
+}
+
+#TitleM{
+    color: white;
+    text-decoration:wavy;
+    
+}
+#btns{
+    text-align: center;
+}
+#contained-modal-title-vcenter{
+    text-align: center;
+}

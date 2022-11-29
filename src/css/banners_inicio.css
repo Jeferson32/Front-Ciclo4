@@ -1,0 +1,41 @@
+.section_banners .banner_66_2 .second_row {
+    margin-top: 30px;
+  }
+  .section_banners .banner_66_2 .banner_caption {
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
+  }
+  
+  .section_banners .banner_66_2 .banner_caption h2 {
+    font-size: 36px;
+  }
+  
+  .section_banners .banner_33 .style_telling {
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .section_banners .banner_item {
+    position: relative;
+    line-height: 0;
+  }
+  
+  .section_banners .banner_caption {
+    line-height: 1em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .img-banner {
+    width: 100%;
+  }

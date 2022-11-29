@@ -1,0 +1,68 @@
+.tabla-carrito {
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+th {
+  text-align: inherit;
+}
+
+.ftco-section {
+  padding: 7em 0;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tabla-carrito thead.thead-primary {
+  background: #5acea4;
+}
+.tabla-carrito thead th {
+  border: none;
+  padding: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+.tabla-carrito tbody th,
+.tabla-carrito tbody td {
+  border: none;
+  padding: 30px;
+  font-size: 14px;
+  background: #fff;
+  border-bottom: 4px solid #f8f9fd;
+  vertical-align: middle;
+}
+
+.tabla-carrito tbody td.quantity {
+  width: 10%;
+}
+.tabla-carrito tbody td .img {
+  width: 100px;
+  height: 80px;
+}
+.tabla-carrito tbody td .email span {
+  display: block;
+}
+.img-gato {
+  width: 300px;
+  position: sticky;
+}
+
+.img-producto {
+  width: 230px;
+}
+
+.btn-remover {
+  width: 30px;
+  height: 30px;
+}
+.remover {
+  position: relative;
+  right: 10px;
+  bottom: 2.5px;
+}

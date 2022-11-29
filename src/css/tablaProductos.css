@@ -1,0 +1,20 @@
+.btn-editar {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-edit {
+  position: relative;
+  right: 5px;
+}
+
+.btn-eliminar {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-usuario {
+  position: relative;
+  top: 4px;
+  left: 5px;
+}

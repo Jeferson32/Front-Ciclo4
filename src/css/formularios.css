@@ -1,0 +1,17 @@
+.formulario {
+  margin-top: 70px;
+  margin-bottom: 260px;
+}
+
+.img-banner {
+  object-fit: cover;
+  margin-top: 160px;
+  height: 400px;
+}
+
+.titilo-actualizar {
+  text-align: center;
+  color: rgba(55, 172, 133, 0.88);
+  text-transform: uppercase;
+  font-size: 40px;
+}

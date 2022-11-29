@@ -1,0 +1,69 @@
+#formReg {
+  max-width: 80%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(127, 255, 212, 0.243);
+}
+.form-group {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+}
+#button1 {
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+#slider {
+  background-image: url(../images/slider_1.PNG);
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+#izq {
+  background-color: transparent;
+  align-items: center;
+}
+
+#der {
+  background-color: transparent;
+}
+
+.contenido {
+  margin: 3px;
+  padding: 3px;
+  text-align: left;
+}
+
+.caja {
+  display: table-cell;
+  padding: 25px;
+}
+
+.caja:nth-child(1) input,
+label {
+  margin-left: 30%;
+}
+
+.caja:nth-child(2) input,
+label {
+  margin-left: 30%;
+}
+
+.cen {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+}
+.btn1 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+}
+
+.form-registro {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}

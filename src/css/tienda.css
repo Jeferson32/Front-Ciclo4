@@ -1,0 +1,230 @@
+/* tienda */
+
+.link-img {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.link-img:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.unit {
+  display: flex;
+  flex: 0 1 100%;
+  margin-bottom: -10px;
+  margin-left: -10px;
+}
+
+.unit-left,
+.unit-right {
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+
+.unit-spacing-0 {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.unit-spacing-0 > * {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.unit-spacing-sm > * {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.aside-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/*
+*
+* Product
+*/
+
+.producto-img {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.product-price {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #35a285;
+}
+
+.product-badge {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  right: 15px;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  border-radius: 6px;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.product-badge-sale {
+  background: #ff4342;
+}
+
+.product-modern {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.08);
+  max-width: 300px;
+  margin-left: 100px;
+  margin-right: auto;
+  box-shadow: 1px 1px 12px #35a285;
+}
+
+.product-modern .product-badge {
+  top: 15px;
+  right: auto;
+  left: 15px;
+}
+
+.product-modern .unit-body {
+  display: flex;
+  align-items: center;
+}
+
+.product-modern-figure {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.product-modern-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-modern-body {
+  width: 100%;
+  padding: 20px 5% 20px 8%;
+}
+
+.product-modern-text + .button {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .product-modern {
+    max-width: none;
+  }
+}
+
+.list-shop-filter li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-shop-filter li + li {
+  margin-top: 12px;
+}
+
+.row-10 > * {
+  margin-bottom: 10px;
+}
+
+.row-30 > * {
+  margin-bottom: 30px;
+}
+
+.rango {
+  width: 300px;
+}
+
+:root {
+  accent-color: #8673c7;
+}
+
+.btn-tienda {
+  background-color: #35a285;
+  color: #fff;
+}
+
+.btn-tienda:hover {
+  background-color: #8673c7;
+  color: #fff;
+}
+
+.btn-carrito {
+  color: #fff;
+  background-color: #8673c7;
+  font-size: 20px;
+}
+.btn-carrito:hover {
+  background-color: #8673c7;
+  color: #fff;
+}
+
+.banner {
+  background-image: url("../images/bg-cta-1\ \(1\).jpg");
+  text-align: center;
+  font-size: 40px;
+  padding: 225px;
+  margin-top: 180px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.product-minimal-title {
+  color: #8673c7;
+  font-size: 20px;
+  font-weight: 700;
+}
+.product-minimal-price {
+  color: #35a285;
+  font-size: 15px;
+  font-weight: 900;
+}
+.product-modern-text {
+  font-size: 18px;
+  color: #363d41;
+  font-weight: 600;
+}
+
+.img-medalla {
+  margin-left: 600px;
+  width: 180px;
+}
+
+.img-dog {
+  position: relative;
+  right: 1050px;
+  top: 400px;
+  width: 250px;
+}
+
+.img-cat {
+  position: absolute;
+  top: 2332px;
+  right: 1200px;
+  width: 800px;
+}

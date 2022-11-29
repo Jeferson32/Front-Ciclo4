@@ -1,0 +1,96 @@
+.imgCarrusel {
+    height: 660px;
+  }
+  
+  .clientes {
+    margin-top: 200px;
+  }
+  
+  .nuestros-clientes {
+    font-size: 60px;
+    line-height: 1.1;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    bottom: 620px;
+    text-align: center;
+  }
+  
+  .imgRedonda {
+    width: 220px;
+    height: 220px;
+    border-radius: 150px;
+    position: absolute;
+    left: 450px;
+    bottom: 380px;
+  }
+  
+  @media (max-width: 768px), (max-width: 1600px) {
+    .imgRedonda {
+      position: absolute;
+      top: 150px;
+      left: 140px;
+    }
+    .nuestros-clientes {
+      font-size: 30px;
+    }
+  }
+  
+  .nombre-cliente {
+    color: #fff;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.35;
+    letter-spacing: 0;
+    position: absolute;
+    bottom: 560px;
+    left: 760px;
+  }
+  
+  .nombre-pets {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: #5acea4;
+    position: absolute;
+    bottom: 564px;
+    left: 980px;
+  }
+  
+  .opinion-cliente {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    position: relative;
+    bottom: 450px;
+    width: 600px;
+    left: 760px;
+  }
+  
+  @media (max-width: 768px), (max-width: 1600px) {
+    .imgRedonda {
+      position: absolute;
+      top: 140px;
+      left: 140px;
+    }
+    .nombre-pets {
+      left: 365px;
+      bottom: 445px;
+    }
+    .nuestros-clientes {
+      font-size: 30px;
+    }
+    .nombre-cliente {
+      left: 140px;
+      bottom: 440px;
+    }
+    .opinion-cliente {
+      position: relative;
+      left: 140px;
+      bottom: 260px;
+      width: 300px;
+    }
+  }

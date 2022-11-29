@@ -1,0 +1,64 @@
+footer {
+  padding: 7em 0;
+}
+
+.footer-10 {
+  background: #222222;
+  padding: 0 0 0em 0;
+}
+.footer-10 .border-top,
+.footer-10 .border-bottom {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.footer-10 .footer-heading {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer-10 p {
+  color: rgba(231, 227, 227, 0.3);
+}
+
+.footer-10 .list-unstyled li a {
+  color: rgba(255, 255, 255, 0.809);
+}
+
+.footer-10 .list-unstyled li a:hover {
+  color: rgba(55, 172, 133, 0.88);
+}
+.footer-10 .con-info .icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(55, 172, 133, 0.88);
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.footer-10 .con-info span {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-10 .subscribe-form .form-group {
+  position: relative;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.footer-10 .subscribe-form .form-group input {
+  background: white !important;
+  border: none !important;
+  outline: none !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.footer-10 .subscribe-form .form-group .submit {
+  color: #fff !important;
+  display: block;
+  width: 130px;
+  height: 52px;
+  font-size: 16px;
+  background: rgba(55, 172, 133, 0.88) !important;
+  border: none;
+  border-radius: 0;
+}

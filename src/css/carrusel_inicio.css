@@ -1,0 +1,54 @@
+.titulo {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  width: 880px;
+  text-align: left;
+  position: relative;
+  left: 700px;
+  bottom: 340px;
+}
+
+.titulo2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  width: 1000px;
+  text-align: left;
+  position: relative;
+  right: 200px;
+  bottom: 300px;
+}
+
+.titulo3 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  width: 880px;
+  text-align: left;
+  position: relative;
+  left: 700px;
+  bottom: 340px;
+}
+
+.btn-Carrusel {
+  background-color: #8673c7;
+  color: #fff;
+  pointer-events: initial;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  left: 114px;
+  bottom: 300px;
+}
+
+.btn-Carrusel:hover {
+  background-color: #5acea4;
+}
+
+.carrusel-inicio {
+  margin-top: 118px;
+}
